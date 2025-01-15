@@ -1,0 +1,19 @@
+.nuvem {
+    position: fixed; /* Para ficar sobre qualquer conteúdo */
+    top: 5px; /* Ajuste vertical */
+    left: 0; /* Início da animação */
+    width: 100px;
+    height: 50px;
+    background: url('../img/nuvem.png') no-repeat center;
+    background-size: cover;
+    animation: moverNuvem 20s infinite alternate; /* Animação de vai e vem */
+}
+
+@keyframes moverNuvem {
+    from {
+        left: 0; /* Início da tela */
+    }
+    to {
+        left: calc(100% - 100px); /* Fim da tela, menos a largura da nuvem */
+    }
+}

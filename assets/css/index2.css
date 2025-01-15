@@ -1,0 +1,42 @@
+.back{
+    background-color: #87CEEB;
+    font-family: 'Great Vibes', cursive;
+}
+#container{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: white;
+}
+.sol{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-right: 51.7%;
+    margin-bottom: 11%;
+}
+.margin{
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+.form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.input{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 6px;
+    font-family: 'Great Vibes', cursive;
+}
